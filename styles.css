@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: #2e2e2e;
+
+}
+
+header {
+    background-color: #810CA8;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+nav {
+    /* flex-grow: .5; */
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+#projects {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+hr {
+    width: 90%;
+}
+
+#about-me {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
