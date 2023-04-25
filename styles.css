@@ -52,3 +52,16 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+a {
+    color: #d65cfe;
+}
+
+nav a {
+    color: white;
+    text-decoration: none ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
