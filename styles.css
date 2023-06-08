@@ -13,6 +13,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
     gap: 100px;
 }
 
@@ -24,13 +25,27 @@ nav {
 }
 
 #projects {
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
     margin: 25px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    flex-wrap: wrap;
+    gap: 75px;
+}
+
+.project {
+    display: flex;
+    gap: 30px;
+
+}
+
+img {
+    float: left;
+    height: 20rem;
+    width: 40rem;
+    background-size: cover;
 }
 
 hr {
@@ -64,4 +79,9 @@ nav a {
 
 html {
     scroll-behavior: smooth;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
